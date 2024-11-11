@@ -35,14 +35,14 @@ You can install the required packages using:
 
 ```bash
 pip install tensorflow numpy opencv-python
-
+```
 ## Usage
 
 Run the following command to start the prediction and evaluation script:
 
 ```bash
 python testing.py
-
+```
 ## Results
 The output includes:
 
@@ -63,7 +63,7 @@ False Negatives (Non-COVID incorrectly detected): 9
 
 Accuracy: 80.43%
 Precision for detecting COVID: 100.00%
-
+```
 ## License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute this code. See the [LICENSE](LICENSE) file for full license details.
