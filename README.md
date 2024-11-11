@@ -1,2 +1,37 @@
-# COVID-19-DETECTION
-COVID-19 DETECTION USING CNN
+# COVID-19 Detection from Chest X-ray Images Using CNN
+
+This repository contains a Convolutional Neural Network (CNN) model designed to detect COVID-19 from chest X-ray images. The model is built using TensorFlow/Keras and performs binary classification (COVID vs. Non-COVID) on X-ray images. The code also includes an evaluation script to calculate accuracy and precision on a test dataset.
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Dataset Structure](#dataset-structure)
+- [Model Architecture](#model-architecture)
+- [Prerequisites](#prerequisites)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Results](#results)
+- [License](#license)
+
+## Project Overview
+The goal of this project is to identify COVID-19 infection based on chest X-ray images. The CNN model has been trained to differentiate between COVID-19 infected and non-COVID images, utilizing deep learning for effective feature extraction and classification.
+
+## Dataset Structure
+The dataset should be structured as follows:
+- **`test_data/`** - Contains only non-COVID chest X-ray images (ground truth label = 0).
+- **`test_data_2/`** - Contains only COVID-infected chest X-ray images (ground truth label = 1).
+
+Both folders should contain images in `.jpg`, `.png`, or `.jpeg` formats.
+
+## Model Architecture
+The model uses a Convolutional Neural Network (CNN) for image classification. CNN layers extract spatial features from the X-ray images to distinguish between COVID-19 and non-COVID cases. The architecture includes several convolutional and pooling layers, followed by fully connected layers for classification.
+
+## Prerequisites
+- Python 3.7 or above
+- TensorFlow 2.x
+- NumPy
+- OpenCV
+
+You can install the required packages using:
+
+```bash
+pip install tensorflow numpy opencv-python
