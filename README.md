@@ -1,6 +1,6 @@
 # COVID-19 Detection from Chest X-ray Images Using CNN
 
-This repository contains a Convolutional Neural Network (CNN) model designed to detect COVID-19 from chest X-ray images. The model is built using TensorFlow/Keras and performs binary classification (COVID vs. Non-COVID) on X-ray images. The code also includes an evaluation script to calculate accuracy and precision on a test dataset.
+This repository contains a Convolutional Neural Network (CNN) model designed to detect COVID-19 from chest X-ray images. The model is built using TensorFlow/Keras and performs binary classification (COVID vs. Non-COVID) on X-ray images. The code also includes an evaluation script to calculate accuracy and precision on a testing dataset.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
